@@ -1,31 +1,23 @@
-import data from '../../info.json';
+const data = require('../../info.json');
 
-export async function handler(event) {
+exports.handler = async (event) => {
   try {
     const headers = {
       'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Headers': 'Content-Type',
     };
 
-    if (event.httpMethod === 'OPTIONS') {
-      return {
-        statusCode: 200,
-        headers,
-        body: 'Options OK',
-      };
-    }
-
     if (event.httpMethod === 'GET') {
-      return {
-        statusCode: 200,
-        headers,
-        body: JSON.stringify(data),
-      };
-    }
+      const name = event.queryStringParameters && event.queryStringParameters.name;
+      if (!name) {
+        return {
+          statusCode: 400,
+          headers,
+          body: JSON.stringify({ error: 'Name parameter is required' }),
+        };
+      }
 
-    if (event.httpMethod === 'GET' && event.queryStringParameters && event.queryStringParameters.name) {
-      const name = event.queryStringParameters.name;
-      const member = hololive_members.find((m) => m.name.toLowerCase() === name.toLowerCase());
+      const member = data.hololive_members.find((m) => m.name.toLowerCase() === name.toLowerCase());
       if (member) {
         return {
           statusCode: 200,
@@ -53,4 +45,4 @@ export async function handler(event) {
       body: JSON.stringify({ error: 'Internal Server Error' }),
     };
   }
-}
+};

@@ -3,7 +3,7 @@
     {
       "name": "Shirakami Fubuki",
       "quote": "In this world, I am destroyer Shirakami Fubuki! We meet at last! I'm Hololive's virtual fox, Shirakami Fubuki!",
-      "image": "img/shirakami.gif",
+      "image": "../hololive-api/img/shirakami.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UCdn5BQ06XqgXoAxIhbqw5Rg",
         "twitter": "https://twitter.com/shirakamifubuki"
@@ -12,7 +12,7 @@
     {
       "name": "Houshou Marine",
       "quote": "Ahoy! I'm Houshou Marine, the captain of Hololive's Marine Crew! Grab your life jacket and join me on the high seas of adventure!",
-      "image": "img/houshou.gif",
+      "image": "../hololive-api/img/houshou.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UCCzUftO8KOVkV4wQG1vkUvg",
         "twitter": "https://twitter.com/houshoumarine"
@@ -21,7 +21,7 @@
     {
       "name": "Minato Aqua",
       "quote": "Hello, everyone! I'm Minato Aqua, the idol who loves both the land and sea! Let's create unforgettable memories together!",
-      "image": "img/minato.gif",
+      "image": "../hololive-api/img/minato.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UC1opHUrw8rvnsadT-iGp7Cg",
         "twitter": "https://twitter.com/minatoaqua"
@@ -30,7 +30,7 @@
     {
       "name": "Akai Haato",
       "quote": "Konnichiwassup!",
-      "image": "img/akai.gif",
+      "image": "../hololive-api/img/akai.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UC1CfXB_kRs3C-zaeTG3oGyg",
         "twitter": "https://twitter.com/haato_hololive"
@@ -39,7 +39,7 @@
     {
       "name": "Natsuiro Matsuri",
       "quote": "Matsuri~ Matsuri~ Let's have a fun time together! It's Matsuri from Hololive!",
-      "image": "img/matsuri.gif",
+      "image": "../hololive-api/img/matsuri.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UCQ0UDLQCjY0rmuxCDE38FGg",
         "twitter": "https://twitter.com/natsuiromatsuri"
@@ -48,7 +48,7 @@
     {
       "name": "Amane Kanata",
       "quote": "I am Amane Kanata! An idol from Hololive, flying in the sky with my wings!",
-      "image": "img/kanata.gif",
+      "image": "../hololive-api/img/kanata.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UCZlDXzGoo7d44bwdNObFacg",
         "twitter": "https://twitter.com/amanekanatach"
@@ -57,7 +57,7 @@
     {
       "name": "Nakiri Ayame",
       "quote": "Welcome, welcome! I'm Nakiri Ayame, a shinobi from Hololive! Let's enjoy this ninja party!",
-      "image": "img/nakiri.gif",
+      "image": "../hololive-api/img/nakiri.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UC7fk0CB07ly8oSl0aqKkqFg",
         "twitter": "https://twitter.com/nakiriayame"
@@ -66,7 +66,7 @@
     {
       "name": "Shirogane Noel",
       "quote": "Hello! I'm Shirogane Noel, a brave knight from Hololive! Let's embark on adventures together!",
-      "image": "img/noel.gif",
+      "image": "../hololive-api/img/noel.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UCdyqAaZDKHXg4Ahi7VENThQ",
         "twitter": "https://twitter.com/shiroganenoel"
@@ -75,7 +75,7 @@
     {
       "name": "Murasaki Shion",
       "quote": "Greetings! I'm Murasaki Shion, a devilishly charming member of Hololive! Let's have a devilishly fun time!",
-      "image": "img/shion.gif",
+      "image": "../hololive-api/img/shion.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UCXTpFs_3PqI41qX2d9tL2Rw",
         "twitter": "https://twitter.com/murasakishionch"
@@ -84,7 +84,7 @@
     {
       "name": "Aki Rosenthal",
       "quote": "Hello, hello! I'm Aki Rosenthal, the science-loving member of Hololive! Let's explore the wonders of science together!",
-      "image": "img/rosenthal.gif",
+      "image": "../hololive-api/img/rosenthal.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UCFTLzh12_nrtzqBPsTCqenA",
         "twitter": "https://twitter.com/akirosenthal"
@@ -93,7 +93,7 @@
     {
       "name": "Tsunomaki Watame",
       "quote": "Ba~a~a! I'm Tsunomaki Watame, a fluffy sheep from Hololive! Let's have a woolly good time together!",
-      "image": "img/watame.gif",
+      "image": "../hololive-api/img/watame.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UCqm3BQLlJfvkTsX_hvm0UmA",
         "twitter": "https://twitter.com/tsunomakiwatame"
@@ -102,7 +102,7 @@
     {
       "name": "Omaru Polka",
       "quote": "Yaho~! I'm Omaru Polka, the hyperactive clown from Hololive! Let's bring some joy and laughter to the world!",
-      "image": "img/polka.gif",
+      "image": "../hololive-api/img/polka.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UCK9V2B22uJYu3N7eR_BT9QA",
         "twitter": "https://twitter.com/omarupolka"
@@ -111,7 +111,7 @@
     {
       "name": "Himemori Luna",
       "quote": "Konbanluna~! I'm Himemori Luna, a princess from Hololive! Let's create a fairytale together!",
-      "image": "img/luna.gif",
+      "image": "../hololive-api/img/luna.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UCA9Y57gfeY0Zro_noHRVrnw",
         "twitter": "https://twitter.com/himemoriluna"
@@ -120,7 +120,7 @@
     {
       "name": "Yukihana Lamy",
       "quote": "Konnichi-yuki~! I'm Yukihana Lamy, a snow maiden from Hololive! Let's have a frosty good time together!",
-      "image": "img/lamy.gif",
+      "image": "../hololive-api/img/lamy.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UCFKOVgVbGmX65RxO3EtH3iw",
         "twitter": "https://twitter.com/yukihanalamy"
@@ -129,7 +129,7 @@
     {
       "name": "Momosuzu Nene",
       "quote": "Konpeko! I'm Momosuzu Nene, a demon from Hololive! Let's have a devilishly delightful time together!",
-      "image": "img/nene.gif",
+      "image": "../hololive-api/img/nene.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UCAWSyEs_Io8MtpY3m-zqILA",
         "twitter": "https://twitter.com/momosuzunene"
@@ -138,7 +138,7 @@
     {
       "name": "Shishiro Botan",
       "quote": "Konnichi-botan! I'm Shishiro Botan, a ghostly member of Hololive! Let's have a hauntingly good time!",
-      "image": "img/botan.gif",
+      "image": "../hololive-api/img/botan.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UCUKD-uaobj9jiqB-VXt71mA",
         "twitter": "https://twitter.com/shishirobotan"
@@ -147,7 +147,7 @@
     {
       "name": "Tokino Sora",
       "quote": "Konoha-chaaaan~!",
-      "image": "img/sora.gif",
+      "image": "../hololive-api/img/sora.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UCp6993wxpyDPHUpavwDFqgg",
         "twitter": "https://twitter.com/tokino_sora"
@@ -156,7 +156,7 @@
     {
       "name": "Roboco",
       "quote": "I am an AI, Roboco-san!",
-      "image": "img/roboco.gif",
+      "image": "../hololive-api/img/roboco.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UCDqI2jOz0weumE8s7paEk6g",
         "twitter": "https://twitter.com/robocosan"
@@ -165,7 +165,7 @@
     {
       "name": "Sakura Miko",
       "quote": "Konkon, Sakura Miko desu!",
-      "image": "img/miko.gif",
+      "image": "../hololive-api/img/miko.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UC-hM6YJuNYVAmUWxeIr9FeA",
         "twitter": "https://twitter.com/sakuramiko35"
@@ -174,7 +174,7 @@
     {
       "name": "Hoshimachi Suisei",
       "quote": "Suisei, shite yaru yo!",
-      "image": "img/suisei.gif",
+      "image": "../hololive-api/img/suisei.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UC5CwaMl1eIgY8h02uZw7u8A",
         "twitter": "https://twitter.com/suisei_hosimati"
@@ -183,7 +183,7 @@
     {
       "name": "AZKi",
       "quote": "Hello, it's AZKi!",
-      "image": "img/azki.gif",
+      "image": "../hololive-api/img/azki.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UC0TXe_LYZ4scaW2XMyi5_kw",
         "twitter": "https://twitter.com/azki_vdiva"
@@ -192,7 +192,7 @@
     {
       "name": "Yozora Mel",
       "quote": "Good evening, minna!",
-      "image": "img/mel.gif",
+      "image": "../hololive-api/img/mel.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UCD8HOxPs4Xvsm8H0ZxXGiBw",
         "twitter": "https://twitter.com/yozoramel"
@@ -201,7 +201,7 @@
     {
       "name": "Gawr Gura",
       "quote": "A",
-      "image": "img/gura.gif",
+      "image": "../hololive-api/img/gura.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UCoSrY_IQQVpmIRZ9Xf-y93g",
         "twitter": "https://twitter.com/gawrgura"
@@ -210,7 +210,7 @@
     {
       "name": "Ninomae Ina'nis",
       "quote": "KonbanIna~!",
-      "image": "img/ina.gif",
+      "image": "../hololive-api/img/ina.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UCMwGHR0BTZuLsmjY_NT5Pwg",
         "twitter": "https://twitter.com/ninomaeinanis"
@@ -219,7 +219,7 @@
     {
       "name": "Takanashi Kiara",
       "quote": "I'm going to cluck my best!",
-      "image": "img/kiara.gif",
+      "image": "../hololive-api/img/kiara.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UCHsx4Hqa-1ORjQTh9TYDhww",
         "twitter": "https://twitter.com/takanashikiara"
@@ -228,7 +228,7 @@
     {
       "name": "Watson Amelia",
       "quote": "Holo-detective, Amelia Watson here!",
-      "image": "img/watson.gif",
+      "image": "../hololive-api/img/watson.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UCyl1z3jo3XHR1riLFKG5UAg",
         "twitter": "https://twitter.com/watsonameliaEN"
@@ -237,7 +237,7 @@
     {
       "name": "Yuzuki Choco",
       "quote": "Yuzuki Choco desu!",
-      "image": "img/choco.gif",
+      "image": "../hololive-api/img/choco.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UC1suqwovbL1kzsoaZgFZLKg",
         "twitter": "https://twitter.com/yuzukichococh"
@@ -246,7 +246,7 @@
     {
       "name": "Oozora Subaru",
       "quote": "Oozora Subaru, here!",
-      "image": "img/suba.gif",
+      "image": "../hololive-api/img/suba.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UCvzGlP9oQwU--Y0r9id_jnA",
         "twitter": "https://twitter.com/oozorasubaru"
@@ -255,7 +255,7 @@
     {
       "name": "Nekomata Okayu",
       "quote": "Nekomata Okayu, desu~!",
-      "image": "img/okayu.gif",
+      "image": "../hololive-api/img/okayu.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UCvaTdHTWBGv3MKj3KVqJVCw",
         "twitter": "https://twitter.com/nekomataokayu"
@@ -264,7 +264,7 @@
     {
       "name": "Inugami Korone",
       "quote": "OkaKoro!",
-      "image": "img/korone.gif",
+      "image": "../hololive-api/img/korone.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UChAnqc_AY5_I3Px5dig3X1Q",
         "twitter": "https://twitter.com/inugamikorone"
@@ -273,7 +273,7 @@
     {
       "name": "Ookami Mio",
       "quote": "Ookami Mio desu~",
-      "image": "img/mio.gif",
+      "image": "../hololive-api/img/mio.gif",
       "social_media": {
         "youtube": "https://www.youtube.com/channel/UCp-5t9SrOQwXMU7iIjQfARg",
         "twitter": "https://twitter.com/ookamimio"
