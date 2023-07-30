@@ -4,44 +4,32 @@
 
 HoloGif API is a simple API that provides information about Hololive members along with their GIF animations. This API can be used to retrieve quotes, social media links, and GIF links of Hololive members.
 
-## Basic Usage
+## Base URL
 
-HoloGif API can be accessed using HTTP GET requests. Here are some example requests that can be made:
+The base URL for accessing the HoloGif API is:
 
-1. Get information about a Hololive member based on their name:
+`https://hologif.api.fujitime.my.id/api`
 
-`GET https://hologif.api.fujitime.my.id/?name=<character-name>`
+## Endpoints
 
-2. Get a quote from a Hololive member:
+### 1. Get information about a Hololive member based on their name:
 
-`GET https://hologif.api.fujitime.my.id/?name=<character-name>&format=quote`
+**Endpoint:** `/`
+**Method:** `GET`
 
-3. Get the GIF link of a Hololive member:
+**Parameters:**
+- `name`: The name of the Hololive member (required)
 
-`GET https://hologif.api.fujitime.my.id/?name=<character-name>&format=gif`
+**Example Request:**
+`GET https://hologif.api.fujitime.my.id/api?name=<character-name>`
 
-4. Get the social media links of a Hololive member:
-
-`GET https://hologif.api.fujitime.my.id/?name=<character-name>&format=social_media`
-
-## API Response
-
-HoloGif API will send responses in JSON format. Here are some example responses that can be received:
-
+**Example Response:**
 ```json
 {
-  "quote": "In this world, I am destroyer Shirakami Fubuki! We meet at last! I'm Hololive's virtual fox, Shirakami Fubuki!"
-}
-```
-
-```json
-{
-  "gif": "shirakami.gif"
-}
-```
-
-```json
-{
+  "id": 1,
+  "name": "Shirakami Fubuki",
+  "quote": "In this world, I am destroyer Shirakami Fubuki! We meet at last! I'm Hololive's virtual fox, Shirakami Fubuki!",
+  "gif": "shirakami.gif",
   "social_media": {
     "youtube": "https://www.youtube.com/channel/UCdn5BQ06XqgXoAxIhbqw5Rg",
     "twitter": "https://twitter.com/shirakamifubuki"
@@ -49,45 +37,80 @@ HoloGif API will send responses in JSON format. Here are some example responses 
 }
 ```
 
-## List of Hololive Members
+### 2. Get a quote from a Hololive member:
 
-Here is a list of the available Hololive member names in the API:
+**Endpoint:** `/`
+**Method:** `GET`
 
-- Shirakami Fubuki
-- Houshou Marine
-- Minato Aqua
-- Akai Haato
-- Natsuiro Matsuri
-- Amane Kanata
-- Nakiri Ayame
-- Shirogane Noel
-- Murasaki Shion
-- Aki Rosenthal
-- Tsunomaki Watame
-- Omaru Polka
-- Himemori Luna
-- Yukihana Lamy
-- Momosuzu Nene
-- Shishiro Botan
-- Tokino Sora
-- Roboco
-- Sakura Miko
-- Hoshimachi Suisei
-- AZKi
-- Yozora Mel
-- Gawr Gura
-- Ninomae Ina'nis
-- Takanashi Kiara
-- Watson Amelia
-- Yuzuki Choco
-- Oozora Subaru
-- Nekomata Okayu
-- Inugami Korone
-- Ookami Mio
+**Parameters:**
+- `name`: The name of the Hololive member (required)
+- `format`: Use `quote` to get the quote (optional)
+
+**Example Request:**
+`GET https://hologif.api.fujitime.my.id/api?name=<character-name>&format=quote`
+
+**Example Response:**
+```json
+{
+  "id": 1,
+  "quote": "In this world, I am destroyer Shirakami Fubuki! We meet at last! I'm Hololive's virtual fox, Shirakami Fubuki!"
+}
+```
+
+### 3. Get the GIF link of a Hololive member:
+
+**Endpoint:** `/`
+**Method:** `GET`
+
+**Parameters:**
+- `name`: The name of the Hololive member (required)
+- `format`: Use `gif` to get the GIF link (optional)
+
+**Example Request:**
+`GET https://hologif.api.fujitime.my.id/api?name=<character-name>&format=gif`
+
+**Example Response:**
+```json
+{
+  "id": 1,
+  "gif": "shirakami.gif"
+}
+```
+
+### 4. Get the social media links of a Hololive member:
+
+**Endpoint:** `/`
+**Method:** `GET`
+
+**Parameters:**
+- `name`: The name of the Hololive member (required)
+- `format`: Use `social_media` to get the social media links (optional)
+
+**Example Request:**
+`GET https://hologif.api.fujitime.my.id/api?name=<character-name>&format=social_media`
+
+**Example Response:**
+```json
+{
+  "id": 1,
+  "social_media": {
+    "youtube": "https://www.youtube.com/channel/UCdn5BQ06XqgXoAxIhbqw5Rg",
+    "twitter": "https://twitter.com/shirakamifubuki"
+  }
+}
+```
+
+## Response Format
+
+The API will respond with a JSON object containing the requested information. The `id` field uniquely identifies each Hololive member.
+
+## Error Handling
+
+If the requested Hololive member is not found, the API will respond with a `404 Not Found` status code and an error message. If the `name` parameter is missing in the request, the API will respond with a `400 Bad Request` status code and an error message.
 
 ## Contribution
 
-If you would like to contribute to the improvement of HoloGif API, you can send pull requests to the fujitime GitHub repository. We greatly appreciate any contributions made to the development of this API.
+If you wish to contribute to the development of HoloGif API, you can submit a pull request to the GitHub repository at `https://github.com/fujitime/hologif-api`. We appreciate any contributions to enhance this API.
 
-We apologize if the quotes from each character are not accurate. If you have any questions or issues, feel free to contact us.
+Thank you for using the HoloGif API! If you have any questions or issues, feel free to contact us.
 
