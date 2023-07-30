@@ -2,11 +2,8 @@
   "name": "hologif",
   "version": "1.0.0",
   "description": "hololive-gif members api",
-  "main": "index.js",
+  "main": "./netlify/functions/data.js",
   "repository": "https://github.com/Fujitime/hologif.git",
   "author": "Fuji Halim Rabbani <racun1601@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "mongodb": "^5.7.0"
-  }
+  "license": "MIT"
 }
