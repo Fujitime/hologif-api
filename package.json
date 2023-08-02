@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "hololive-gif members api",
   "main": "./netlify/functions/data.js",
-  "repository": "https://github.com/Fujitime/hologif.git",
+  "repository": "https://github.com/Fujitime/hologif-api.git",
   "author": "Fuji Halim Rabbani <racun1601@gmail.com>",
   "license": "MIT"
 }

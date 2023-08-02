@@ -5,5 +5,5 @@
 
 [[redirects]]
   from = "/"
-  to = "./img/info.json"
+  to = "./info.json"
   status = 200
